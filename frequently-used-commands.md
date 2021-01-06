@@ -5,7 +5,7 @@ Tool commands frequently used in the course + added some...
 | Command | Description |
 | --- | --- |
 |   |
-| GENERAL |
+| **GENERAL** |
 | `CTRL+C` | Cancel / abort a command, hitting CTRL+C will cancel that command. |
 | `cat` | Output file to screen, all in one go. Ex.: cat .ssh/id_rsa.pub. |
 | `cd ..` | Change directory upwards. Mind the space! |
@@ -19,7 +19,7 @@ Tool commands frequently used in the course + added some...
 | `mkdir` | Make direktory / folder. Ex.: mkdir new-folder |
 | `history` | Lists commands used in current session. |
 |   |
-| GIT |
+| **GIT** |
 | `git status` | Shows your local git status (current branch, changed files, etc) |
 | `git clone <URL>` | Clone a repository from URL <br/>Example:  `git clone https://github.com/username/reponame.git`|
 | `git pull` | Updates local branch with remote changes |
@@ -32,12 +32,12 @@ Tool commands frequently used in the course + added some...
 | `git branch --list` | List current local branches |
 | `git merge <branch>` | Merges changes from the given branch into current. |
 |   |
-| ssh |
+| **ssh** |
 | `ssh-keygen` | Creates a new private/public key pair. |
 | `ssh <machinename>` | Establishes a remote ssh session to the given machine name. Machine name can be host name in `.ssh/config` or an  IP address. |
 | `ssh -T git@github.com` | Validate connection to GitHub [ssh setup, deploy keys](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh) |
 |   |
-| az |
+| **az** |
 | `az login` | Login to Azure |
 | `az account show` | Show details about currently logged-in user. |
 
