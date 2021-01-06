@@ -3,9 +3,8 @@
 Tool commands frequently used in the course + added some...
 
 ## General
-| ## GENEREAL | --- |
 | Command | Description |
-| --- | --- |
+| ------------- | --- |
 | `CTRL+C` | Cancel / abort a command, hitting CTRL+C will cancel that command. |
 | `cat` | Output file to screen, all in one go. Ex.: cat .ssh/id_rsa.pub. |
 | `cd ..` | Change directory upwards. Mind the space! |
@@ -21,7 +20,7 @@ Tool commands frequently used in the course + added some...
 
 ## Git
 | Command | Description |
-| --- | --- |
+| ------------- | --- |
 | `git status` | Shows your local git status (current branch, changed files, etc) |
 | `git clone <URL>` | Clone a repository from URL <br/>Example:  `git clone https://github.com/username/reponame.git`|
 | `git pull` | Updates local branch with remote changes |
@@ -37,14 +36,14 @@ Tool commands frequently used in the course + added some...
 ## ssh
 
 | Command | Description |
-| --- | --- |
+| ------------- | --- |
 | `ssh-keygen` | Creates a new private/public key pair. |
 | `ssh <machinename>` | Establishes a remote ssh session to the given machine name. Machine name can be host name in `.ssh/config` or an  IP address. |
 | `ssh -T git@github.com` | Validate connection to GitHub [ssh setup, deploy keys](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh) |
 
 ## az
 | Command | Description |
-| --- | --- |
+| ------------- | --- |
 | `az login` | Login to Azure |
 | `az account show` | Show details about currently logged-in user. |
 
