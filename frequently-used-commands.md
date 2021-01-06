@@ -3,6 +3,7 @@
 Tool commands frequently used in the course + added some...
 
 ## General
+| ## GENEREAL | --- |
 | Command | Description |
 | --- | --- |
 | `CTRL+C` | Cancel / abort a command, hitting CTRL+C will cancel that command. |
