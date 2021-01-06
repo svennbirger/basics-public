@@ -25,7 +25,7 @@ Tool commands frequently used in the course + added some...
 | `git clone <URL>` | Clone a repository from URL <br/>Example:  `git clone https://github.com/username/reponame.git`|
 | `git pull` | Updates local branch with remote changes |
 | `git add <filepath>` | Stages the specified files for commit. <br /> Common: `git add .`  or `git add --all` = adds all local files to the stage. |
-| `git commit` | Creates a new commit from the staged changes. <br/> Common: `git commit -a`  = all files commited. `git commit -m "Initial commit"` = With comment|
+| `git commit` | Creates a new commit from the staged changes. <br/> Common: `git commit -a`  = all modified files commited. `git commit -m "Initial commit"` = With comment|
 | `git push` | Pushes the current branch to remote [(e.g. GitHub). <br/> Common: `git push -u origin main` = push to main and track main branch from origin.|
 | `git fetch` | Updates local repository with remote changes. Does not update branches. |
 | `git switch -c <branch>` | Creates a new branch and switches to it. |
