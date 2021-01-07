@@ -54,13 +54,13 @@ Tool commands frequently used in the course + added some...
 | `git push origin <new_local_branch>` | Push the new branch to github. (Make new local branch available on GitHub) |
 | `git branch -a` | List all the branches created, if needed. (Both localy and from GitHub). |
 | *Edit files* | Edit the files  / do your work in the new local branch and go to next step. |
-| `git remote add <remote_branch> <new_local_branch>` | Add a new remote branch for your local (origin) branch. |
+| `git remote add <remote_branch> <new_local_branch>` | Add a new remote branch for your local (origin) branch.<br/> (Or else you get: fatal: The current branch newedit has no upstream branch") |
 | `git commit -a -m "Comment text"` | Add changes and commit in same go, with comment! |
-| `git push` | Pushes the current (edited) *local_branch* to *remote_branch* on GitHub.|
+| `git push --set-upstream origin <new_local_branch>` | Sets the upstream and pushes the current (edited) *local_branch* to *remote_branch* on GitHub.|
 
-| `git switch <main_branch>` | Creates the new branch on your local machine and switch to this branch. |
-| `git merge <branchname>` | Merges changes from the given branch (*branchname*) into current selected branch. |
-| `git branch -d <branchname>` | Delete a branch on your local filesystem. <br/> Force delete: `git branch -D <branchname>` |
-| `git push origin :<branchname_to_be_deleted>` | Delete a remote branch (on GitHub). |
+| `git switch <master_branch>` | Creates the new branch on your local machine and switch to this branch. |
+| `git merge <new_local_branch>` | Merges changes from the given branch (*branchname*) into current selected branch. |
+| `git branch -d <new_local_branch>` | Delete a branch on your local filesystem. <br/> Force delete: `git branch -D <branchname>` |
+| `git push origin :<new_local_branch>` | Delete a remote branch (on GitHub). |
 
 
