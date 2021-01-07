@@ -40,3 +40,5 @@ Tool commands frequently used in the course + added some...
 | **az** |
 | `az login` | Login to Azure |
 | `az account show` | Show details about currently logged-in user. |
+| `az account show --query user.name` | List active user. |
+| `az ad sp credential reset --name <principal name>`| Reset credetials of Service Provider (SP). |
