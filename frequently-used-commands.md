@@ -53,8 +53,8 @@ Tool commands frequently used in the course + added some...
 | `git switch -c <new_local_branch>` | Creates a branch on your local machine and switch to this branch. |
 | `git push origin <new_local_branch>` | Push the new branch to github. (Make new local branch available on GitHub) |
 | `git branch -a` | List all the branches created, if needed. (Both localy and from GitHub). |
-| `git remote add <remote_branch> <new_local_branch>` | Add a new remote branch for your local (origin) branch. |
 | *Edit files* | Edit the files  / do your work in the new local branch and go to next step. |
+| `git remote add <remote_branch> <new_local_branch>` | Add a new remote branch for your local (origin) branch. |
 | `git commit -a -m "Comment text"` | Add changes and commit in same go, with comment! |
 | `git push` | Pushes the current (edited) *local_branch* to *remote_branch* on GitHub.|
 
