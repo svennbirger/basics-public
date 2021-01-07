@@ -1,5 +1,5 @@
-# basics
-Test repository
+# Basics
+Public repository
 
 ## Test webpage at https://svennbirger.github.io/basics-public/
 
