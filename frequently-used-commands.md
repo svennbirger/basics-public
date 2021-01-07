@@ -47,7 +47,7 @@ Tool commands frequently used in the course + added some...
 | `az ad sp credential reset --name <principal name>`| Reset credetials of Service Provider (SP). |
 
 ## Git branches, create and manage. (Listed as needed.)
-| Command | Description |
+| #   | Command   | Description |
 | --- | --- | --- |
 | 01 | `git pull` | Before creating a new branch, pull the changes from upstream. Your local master needs to be up to date. |
 | 02 | `git switch -c <new_local_branch>` | Creates a branch on your local machine and switch to this branch. |
