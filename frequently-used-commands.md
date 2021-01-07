@@ -59,4 +59,4 @@ Tool commands frequently used in the course + added some...
 | 08 | `git merge <new_local_branch>` | Merges changes from the given branch (*branchname*) into current selected (master) branch. |
 | 09 | `git push` | Pushes the current local branch to remote branch (e.g. GitHub).
 | 10 | `git branch -d <new_local_branch>` | Delete a branch on your local filesystem. <br/> Force delete: `git branch -D <branchname>` |
-| 11 | `git push origin :<new_remote_branch>` | Delete the new remote branch (on GitHub). |
+| 11 | `git push origin :<new_remote_branch>` | Delete the new external branch (on GitHub) that is no longer needed. |
