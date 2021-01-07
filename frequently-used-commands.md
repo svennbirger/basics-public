@@ -25,7 +25,7 @@ Tool commands frequently used in the course + added some...
 | `git pull` | Updates local branch with remote changes |
 | `git add <filepath>` | Stages the specified files for commit. <br /> Common: `git add .`  or `git add --all` = adds all local files to the stage. |
 | `git commit` | Creates a new commit from the staged changes. <br/> Common: `git commit -a`  = all modified files commited. `git commit -m "Initial commit"` = With comment|
-| `git push` | Pushes the current branch to remote [(e.g. GitHub). <br/> Common: `git push -u origin main` = push to main and track main branch from origin.|
+| `git push` | Pushes the current branch to remote branch [(e.g. GitHub). <br/> Common: `git push -u origin master` = push to master and track master branch from origin.|
 | `git push --set-upstream origin <branchname>` | Use this command if `git push` returns "fatal, The current branch editbranch has no upstream branch." |
 | `git fetch` | Updates local repository with remote changes. Does not update branches. |
 | `git switch -c <branch>` | Creates a new branch and switches to it. |
@@ -52,4 +52,8 @@ Tool commands frequently used in the course + added some...
 | `git push origin <new_local_branch_name>` | Push the new branch to github. (Make new local branch available on GitHub) |
 | `git branch -a` | List all the branches created, if needed. (Both localy and from GitHub). |
 | `git remote add <remote_branch_name> <new_local_branch_name>` | Add a new remote branch for your local branch. |
+| `git add <filepath>` | Stages the specified files for commit. <br /> Common: `git add .`  = all or `git add <filename>` = only one file |
+| `git commit -m "Edit - comment text"` | Creates a new commit from the staged changes -  With comment!|
+| `git push` | Pushes the current branch to remote branch [(e.g. GitHub). <br/> Common: `git push -u origin main` = push to main and track main branch from origin.|
+
 
