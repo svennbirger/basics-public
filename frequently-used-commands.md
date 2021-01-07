@@ -46,7 +46,7 @@ Tool commands frequently used in the course + added some...
 | `az account show --query user.name` | List active user. |
 | `az ad sp credential reset --name <principal name>`| Reset credetials of Service Provider (SP). |
 
-## Git branches, create and manage. (Listed as needed.)
+## Git branches, create and manage (Listed as needed).
 | #   | Command   | Description |
 | --- | --- | --- |
 | 01 | `git pull` | Before creating a new branch, pull the changes from upstream. Your local master needs to be up to date. |
