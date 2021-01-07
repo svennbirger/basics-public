@@ -43,3 +43,13 @@ Tool commands frequently used in the course + added some...
 | `az account show` | Show details about currently logged-in user. |
 | `az account show --query user.name` | List active user. |
 | `az ad sp credential reset --name <principal name>`| Reset credetials of Service Provider (SP). |
+
+## Git branches, create and manage. (Listed as needed.)
+| Command | Description |
+| --- | --- |
+| `git pull` | Before creating a new branch, pull the changes from upstream. Your local master needs to be up to date. |
+| `git checkout -b <new_local_branch_name>` | Creates the new branch on your local machine and switch to this branch. |
+| `git push origin <new_local_branch_name>` | Push the new branch to github. (Make new local branch available on GitHub) |
+| `git branch -a` | List all the branches created, if needed. (Both localy and from GitHub). |
+| `git remote add <remote_branch_name> <new_local_branch_name>` | Add a new remote branch for your local branch. |
+
