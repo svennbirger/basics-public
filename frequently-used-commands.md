@@ -48,16 +48,15 @@ Tool commands frequently used in the course + added some...
 
 ## Git branches, create and manage. (Listed as needed.)
 | Command | Description |
-| --- | --- |
-| `git pull` | Before creating a new branch, pull the changes from upstream. Your local master needs to be up to date. |
-| `git switch -c <new_local_branch>` | Creates a branch on your local machine and switch to this branch. |
-| `git push origin <new_local_branch>` | Push the new branch to github. (Make new local branch available on GitHub) |
-| `git branch -a` | List all the branches created, if needed. (Both localy and from GitHub). |
-| *Edit files* | Edit the files  / do your work in the new local branch and go to next step. |
-| `git commit -a -m "Comment text"` | Add changes and commit in same go, with comment! |
-| `git push --set-upstream origin <new_local_branch>` | Sets the upstream and pushes the current (edited) *local_branch* to *remote_branch* on GitHub.|
-| `git switch <master_local_branch>` | Switch to the origin master branch. |
-| `git merge <new_local_branch>` | Merges changes from the given branch (*branchname*) into current selected (master) branch. |
-| `git push` | Pushes the current local branch to remote branch (e.g. GitHub).
-| `git branch -d <new_local_branch>` | Delete a branch on your local filesystem. <br/> Force delete: `git branch -D <branchname>` |
-| `git push origin :<new_remote_branch>` | Delete the new remote branch (on GitHub). |
+| --- | --- | --- |
+| 01 | `git pull` | Before creating a new branch, pull the changes from upstream. Your local master needs to be up to date. |
+| 02 | `git switch -c <new_local_branch>` | Creates a branch on your local machine and switch to this branch. |
+| 03 | `git push origin <new_local_branch>` | Push the new branch to github. (Make new local branch available on GitHub). <br/> Use `git branch -a` to list all the branches created, if needed. (Both localy and from GitHub). |
+| 04 | *Edit files ->* | Edit the files  / do your work in the new local branch and go to next step. |
+| 05 | `git commit -a -m "Comment text"` | Add changes and commit in same go, with comment! |
+| 06 | `git push --set-upstream origin <new_local_branch>` | Sets the upstream and pushes the current (edited) *local_branch* to *remote_branch* on GitHub.|
+| 07 | `git switch <master_local_branch>` | Switch to the origin master branch. |
+| 08 | `git merge <new_local_branch>` | Merges changes from the given branch (*branchname*) into current selected (master) branch. |
+| 09 | `git push` | Pushes the current local branch to remote branch (e.g. GitHub).
+| 10 | `git branch -d <new_local_branch>` | Delete a branch on your local filesystem. <br/> Force delete: `git branch -D <branchname>` |
+| 11 | `git push origin :<new_remote_branch>` | Delete the new remote branch (on GitHub). |
