@@ -28,10 +28,12 @@ Tool commands frequently used in the course + added some...
 | `git push` | Pushes the current local branch to remote branch [(e.g. GitHub). <br/> Common: `git push -u origin master` = push to master and track master branch from origin.|
 | `git push --set-upstream origin <branchname>` | Use this command if `git push` returns "fatal, The current branch editbranch has no upstream branch." |
 | `git fetch` | Updates local repository with remote changes. Does not update branches. |
-| `git switch -c <branch>` | Creates a new branch and switches to it. |
-| `git switch <branch>` | Switch to the given branch. |
+| `git switch -c <branchname>` | Creates a new branch and switches to it. <br/> Alternative: `git checkout -b <branchname>` |
+| `git switch <branchname>` | Switch to the given branch. <br/> Alternative:  `git checkout <branchname>` |
 | `git branch --list` | List current local branches |
-| `git merge <branch>` | Merges changes from the given branch into current. |
+| `git merge <branchname>` | Merges changes from the given branch into current. |
+| `git branch -d <branchname>` | Delete a branch on your local filesystem. <br/> Force delete: `git branch -D <branchname>` |
+| `git push origin :<branchname_to_be_deleted>` | Delete a remote branch (on GitHub). |
 |   |
 | **ssh** |
 | `ssh-keygen` | Creates a new private/public key pair. |
@@ -48,11 +50,17 @@ Tool commands frequently used in the course + added some...
 | Command | Description |
 | --- | --- |
 | `git pull` | Before creating a new branch, pull the changes from upstream. Your local master needs to be up to date. |
-| `git checkout -b <local_branch_name>` | Creates the new branch on your local machine and switch to this branch. |
-| `git push origin <local_branch_name>` | Push the new branch to github. (Make new local branch available on GitHub) |
+| `git switch -c <new_local_branch>` | Creates a branch on your local machine and switch to this branch. |
+| `git push origin <new_local_branch>` | Push the new branch to github. (Make new local branch available on GitHub) |
 | `git branch -a` | List all the branches created, if needed. (Both localy and from GitHub). |
-| `git remote add <remote_branch_name> <local_branch_name>` | Add a new remote branch for your local (origin) branch. |
-| `git commit -a -m "Comment text"` | Add and commit in same go, with comment! |
-| `git push` | Pushes the current *local_branch_name* to *remote_branch_name* [(e.g. GitHub). <br/> Common: `git push -u origin master` = push to master and track maaster branch from origin.|
+| `git remote add <remote_branch> <new_local_branch>` | Add a new remote branch for your local (origin) branch. |
+| *Edit files* | Edit the files  / do your work in the new local branch and go to next step. |
+| `git commit -a -m "Comment text"` | Add changes and commit in same go, with comment! |
+| `git push` | Pushes the current (edited) *local_branch* to *remote_branch* on GitHub.|
+
+| `git switch <main_branch>` | Creates the new branch on your local machine and switch to this branch. |
+| `git merge <branchname>` | Merges changes from the given branch (*branchname*) into current selected branch. |
+| `git branch -d <branchname>` | Delete a branch on your local filesystem. <br/> Force delete: `git branch -D <branchname>` |
+| `git push origin :<branchname_to_be_deleted>` | Delete a remote branch (on GitHub). |
 
 
