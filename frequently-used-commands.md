@@ -23,8 +23,8 @@
 | `git status` | Shows your local git status (current branch, changed files, etc) |
 | `git clone <URL>` | Clone a repository from URL <br/>Example:  `git clone https://github.com/username/reponame.git`|
 | `git pull` | Updates local branch with remote changes |
-| `git add <filepath>` | Stages the specified files for commit. <br /> Common: `git add .`  or `git add --all` = adds all local files to the stage. |
-| `git commit` | Creates a new commit from the staged changes. <br/> Common: `git commit -a`  = stage and commit changes to all tracked files. `git commit -m "Comment text"` = With comment. `git commit -a -m "Comment text"` = stage and commit changes to all tracked files, with comment.|
+| `git add <filepath>` | Stages the specified files for commit. <br/>Common: `git add .`  or `git add --all` = adds all local files to the stage. |
+| `git commit` | Creates a new commit from the staged changes. Common: <br/> `git commit -a`  = stage and commit changes to all tracked files. <br/> `git commit -m "Comment text"` = With comment. <br/> `git commit -a -m "Comment text"` = stage and commit changes to all tracked files, with comment.|
 | `git push` | Pushes the current local branch to remote branch (e.g. GitHub). <br/> Common: `git push -u origin master` = push to master and track master branch from origin.|
 | `git push --set-upstream origin <branchname>` | Use this command if `git push` returns "fatal, The current branch editbranch has no upstream branch." |
 | `git fetch` | Updates local repository with remote changes. Does not update branches. |
