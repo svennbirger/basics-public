@@ -63,7 +63,7 @@
 | 11 | `git push origin :<new_remote_branch>` | Delete the new external branch (on GitHub) that is no longer needed. |
 
 
-## Various examples ##
+## Various examples simplified ##
 
 **Clone repository**
 >git clone https://github.com/equinor/plantdocs.omnia.git
