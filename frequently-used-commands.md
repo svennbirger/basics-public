@@ -48,6 +48,7 @@
 
 
 ## Git branches, create and manage (Listed as needed).
+This example shows a case where we need to edit a repository and want to use another (new)branch to do the edits within.
 | #   | Command   | Description |
 | --- | --- | --- |
 | 01 | `git pull` | Before creating a new branch, pull the changes from upstream. Your local master needs to be up to date. |
