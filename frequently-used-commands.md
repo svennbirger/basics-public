@@ -60,3 +60,32 @@
 | 09 | `git push` | Pushes the current local branch to remote branch (e.g. GitHub).
 | 10 | `git branch -d <new_local_branch>` | Delete a branch on your local filesystem. <br/> Force delete: `git branch -D <branchname>` |
 | 11 | `git push origin :<new_remote_branch>` | Delete the new external branch (on GitHub) that is no longer needed. |
+
+## Examples ##
+
+**Clone repository**
+>git clone https://github.com/equinor/plantdocs.omnia.git
+
+**Create a branch**
+>git branch mybranch
+
+**CheckOut branch**
+>git checkout mybranch
+
+**Set-upstream remote repository**
+>​git push --set-upstream origin mybranch
+
+**Go to folder**
+>cd docs/how-to/
+
+**Add the following markdown page you have updated to Stage**
+>git add frequently-used-commands.md
+
+**Commit localy, describe the change**
+>git commit -a
+
+**Example Message, Commit localy, describe the change**
+>git commit -m "create new markdown page"
+
+**Push changes to remote repository**
+>git push
