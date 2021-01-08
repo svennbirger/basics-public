@@ -24,7 +24,7 @@ Tool commands frequently used in the course + added some...
 | `git clone <URL>` | Clone a repository from URL <br/>Example:  `git clone https://github.com/username/reponame.git`|
 | `git pull` | Updates local branch with remote changes |
 | `git add <filepath>` | Stages the specified files for commit. <br /> Common: `git add .`  or `git add --all` = adds all local files to the stage. |
-| `git commit` | Creates a new commit from the staged changes. <br/> Common: `git commit -a`  = add and commit in same go. `git commit -m "Comment text"` = With comment. `git commit -a -m "Comment text"` = add and commit in same go, with comment!|
+| `git commit` | Creates a new commit from the staged changes. <br/> Common: `git commit -a`  = stage and commit changes to all tracked files. `git commit -m "Comment text"` = With comment. `git commit -a -m "Comment text"` = stage and commit changes to all tracked files, with comment.|
 | `git push` | Pushes the current local branch to remote branch (e.g. GitHub). <br/> Common: `git push -u origin master` = push to master and track master branch from origin.|
 | `git push --set-upstream origin <branchname>` | Use this command if `git push` returns "fatal, The current branch editbranch has no upstream branch." |
 | `git fetch` | Updates local repository with remote changes. Does not update branches. |
@@ -53,7 +53,7 @@ Tool commands frequently used in the course + added some...
 | 02 | `git switch -c <new_local_branch>` | Creates a branch on your local machine and switch to this branch. |
 | 03 | `git push origin <new_local_branch>` | Push the new branch to github. (Make new local branch available on GitHub). <br/> Use `git branch -a` to list all the branches created, if needed. (Both localy and from GitHub). |
 | 04 | *Edit files ->* | Edit the files  / do your work in the new local branch and go to next step. |
-| 05 | `git commit -a -m "Comment text"` | Add changes and commit in same go, with comment! |
+| 05 | `git commit -a -m "Comment text"` | Stage and commit changes to all tracked files, with comment. |
 | 06 | `git push --set-upstream origin <new_local_branch>` | Sets the upstream and pushes the current (edited) *local_branch* to *remote_branch* on GitHub.|
 | 07 | `git switch <master_local_branch>` | Switch to the origin master branch. |
 | 08 | `git merge <new_local_branch>` | Merges changes from the given branch (*branchname*) into current selected (master) branch. |
