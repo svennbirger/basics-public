@@ -9,6 +9,8 @@
 | `CTRL+C` | Cancel / abort a command, hitting CTRL+C will cancel that command. |
 | `cat` | Output file to screen, all in one go. Ex.: cat .ssh/id_rsa.pub. |
 | `cd ..` | Change directory upwards. Mind the space! |
+| `cd -` | Navigate to the previous directory (or back). Mind the space! |
+| `cd /` | Navigate back to **root**. Mind the space! |
 | `cp` | Copy file or folder. Ex.: cp old-filename.ext new-filename.ext |
 | `ls` | List directory (also use dir) CANNOT use parmameter as -l, -la etc. in powershell |
 | `ls -l` | List directory as structured as table. ONLY IN BASH! |
@@ -45,6 +47,8 @@
 | `az account show` | Show details about currently logged-in user. |
 | `az account show --query user.name` | List active user. |
 | `az ad sp credential reset --name <principal name>`| Reset credetials of Service Provider (SP). |
+| `az account set --subscription <subscription_name>`| Set a subscription to be the current active subscription. |
+| `az account list --output table`| List available subscriptions (as table: Name, CloudName, SubscriptionId, State, IsDefault|
 
 
 ## Git branches, create and manage (Listed as needed).
