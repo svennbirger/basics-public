@@ -22,6 +22,7 @@
 | `history` | Lists commands used in current session. |
 |   |
 | **GIT** |
+| `sudo dnf install git-all` | Installing Git on Linux. Not to be used on Windows. See [Git Install](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)|
 | `git status` | Shows your local git status (current branch, changed files, etc) |
 | `git clone <URL>` | Clone a repository from URL <br/>Example:  `git clone https://github.com/username/reponame.git`|
 | `git pull` | Updates local branch with remote changes |
