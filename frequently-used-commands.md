@@ -35,6 +35,7 @@
 | `git merge <branchname>` | Merges changes from the given branch into current. |
 | `git branch -d <branchname>` | Delete a branch on your local filesystem. <br/> Force delete: `git branch -D <branchname>` |
 | `git push origin :<branchname_to_be_deleted>` | Delete a remote branch (on GitHub). |
+| `git reset --hard origin/<branchname_to_keep>` | Reset branch. NB! All previous commited localy will be deleted! |
 |   |
 | **ssh** |
 | `ssh-keygen` | Creates a new private/public key pair. |
