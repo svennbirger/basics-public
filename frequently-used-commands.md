@@ -36,9 +36,9 @@
 | `git reset --hard origin/<branchname_to_keep>` | Reset branch. NB! All previous commited localy will be deleted! |
 |   |
 | **Bash** |
-| `${string:position:length}` | Extract $length of characters substring from $string starting from $position. E.x removing first and last character: <br/>string="12345" <br/>echo ${string:1:-1} <br/>2345 |
-| `${string##substring}` | Remove the $substring match from front of $string. E.x Keep text after the dot (mind the star): <br/>string="front.back" <br/>echo ${string##*.} <br/>back |
-| `${string%%substring}` | Remove the $substring match from back of $string. E.x Keep text before the dot (mind the star): <br/>string="front.back" <br/>echo ${string%%.*} <br/>front |
+| `${string:position:length}` | Extract $length of characters substring from $string starting from $position. <br/>E.x removing first and last character: <br/>string="12345" <br/>echo ${string:1:-1} <br/>2345 |
+| `${string##substring}` | Remove the $substring match from front of $string. <br/>E.x Keep text after the dot (mind the star): <br/>string="front.back" <br/>echo ${string##*.} <br/>back |
+| `${string%%substring}` | Remove the $substring match from back of $string. <br/>E.x Keep text before the dot (mind the star): <br/>string="front.back" <br/>echo ${string%%.*} <br/>front |
 | **ssh** |
 | `ssh-keygen` | Creates a new private/public key pair. |
 | `ssh <machinename>` | Establishes a remote ssh session to the given machine name. Machine name can be host name in `.ssh/config` or an  IP address. |
