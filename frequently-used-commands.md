@@ -10,9 +10,7 @@
 | `cd -` | Navigate to the previous directory (or back). Mind the space! |
 | `cd /` | Navigate back to **root**. Mind the space! |
 | `cp` | Copy file or folder. Ex.: cp old-filename.ext new-filename.ext |
-| `ls` | List directory (also use dir) CANNOT use parmameter as -l, -la etc. in powershell |
-| `ls -l` | List directory as structured as table. ONLY IN BASH! |
-| `ls -la` | List directory as structured as table. -a also list hidden files. ONLY IN BASH! |
+| `ls` | List directory (also use dir) CANNOT use parmameter as -l, -la etc. in powershell <br/>`ls -l` = List directory as structured as table. ONLY IN BASH! <br/>`ls -la` = -a also list hidden files. ONLY IN BASH! |
 | `pwd` | Print Working Directory. Returns the path to a local folder on your computer's disk. |
 | `rm` | Remove file or folder. Ex.: rm path/to/file.ext or rm -r path/to/folder |
 | `mv` | Move file or folder. Ex.: mv old-filename.ext new-filename.ext |
@@ -37,6 +35,10 @@
 | `git push origin :<branchname_to_be_deleted>` | Delete a remote branch (on GitHub). |
 | `git reset --hard origin/<branchname_to_keep>` | Reset branch. NB! All previous commited localy will be deleted! |
 |   |
+| **Bash** |
+| `${string:position:length}` | Extract $length of characters substring from $string starting from $position. E.x removing first and last character: <br/>string="12345" <br/>echo ${string:1:-1} <br/>2345 |
+| `${string##substring}` | Remove the $substring match from front of $string. E.x Keep text after the dot (mind the star): <br/>string="front.back" <br/>echo ${string##*.} <br/>back |
+| `${string%%substring}` | Remove the $substring match from back of $string. E.x Keep text before the dot (mind the star): <br/>string="front.back" <br/>echo ${string%%.*} <br/>front |
 | **ssh** |
 | `ssh-keygen` | Creates a new private/public key pair. |
 | `ssh <machinename>` | Establishes a remote ssh session to the given machine name. Machine name can be host name in `.ssh/config` or an  IP address. |
