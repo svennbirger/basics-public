@@ -9,7 +9,7 @@
 | `cd ..` | Change directory upwards. Mind the space! |
 | `cd -` | Navigate to the previous directory (or back). Mind the space! |
 | `cd /` | Navigate back to **root**. Mind the space! |
-| `cp` | Copy file or folder. Ex.: cp old-filename.ext new-filename.ext |
+| `cp` | Copy file or folder. Ex.: `cp old-filename.ext new-filename.ext` |
 | `ls` | List directory (also use dir) CANNOT use parmameter as -l, -la etc. in powershell <br/>`ls -l` = List directory as structured as table. ONLY IN BASH! <br/>`ls -la` = -a also list hidden files. ONLY IN BASH! |
 | `pwd` | Print Working Directory. Returns the path to a local folder on your computer's disk. |
 | `rm` | Remove file or folder. Ex.: rm path/to/file.ext or rm -r path/to/folder |
